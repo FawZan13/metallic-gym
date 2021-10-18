@@ -1,32 +1,38 @@
 [
     {
+        "id": 1,
         "name": "Basic training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/8Y9SttX"
+        "img": "https://i.ibb.co/MB73QQ9/basic-training.jpg"
     },
     {
+        "id": 2,
         "name": "Cardio training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/ZdPBGK8"
+        "img": "https://i.ibb.co/CBZbmv7/cardio.jpg"
     },
     {
-        "name": "Cardio training",
+        "id": 3,
+        "name": "Strength training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/ZdPBGK8"
+        "img": "https://i.ibb.co/tJFsKg6/strength.jpg"
     },
     {
-        "name": "Cardio training",
+        "id": 4,
+        "name": "Weight-loss training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/ZdPBGK8"
+        "img": "https://i.ibb.co/DQ4w3kg/weight-loss.jpg"
     },
     {
-        "name": "Cardio training",
+        "id": 5,
+        "name": "Crossfit training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/ZdPBGK8"
+        "img": "https://i.ibb.co/cg7nR6m/crossfit.jpg"
     },
     {
-        "name": "Cardio training",
+        "id": 6,
+        "name": "Endurance training",
         "description": "It is a basic training program.It provides basic training for those who are new to workout.",
-        "img": "https://ibb.co/ZdPBGK8"
+        "img": "https://i.ibb.co/C87zwTh/endurance.jpg"
     }
 ]
