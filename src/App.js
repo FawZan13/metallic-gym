@@ -8,6 +8,8 @@ import Training from './Pages/Training/Traning/Training';
 import AuthProvider from './contexts/AuthProvider';
 import Footer from './Pages/Shared/Footer/Footer';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Subscribe from './Pages/Subscribe/Subscribe';
+import Trainer from './Pages/Trainer/Trainer';
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
             </Route>
             <PrivateRoute path="/training/:serviceId">
               <Training></Training>
+            </PrivateRoute>
+            <PrivateRoute path="/Subscribe">
+              <Subscribe></Subscribe>
+            </PrivateRoute>
+            <PrivateRoute path="/Trainer">
+              <Trainer></Trainer>
             </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
