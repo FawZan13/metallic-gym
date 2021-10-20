@@ -1,8 +1,10 @@
-import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 const Training = () => {
     const { serviceId } = useParams;
+
+
     return (
         <div>
             <h2>Start Your Training</h2>

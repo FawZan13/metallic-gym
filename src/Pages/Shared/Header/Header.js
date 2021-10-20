@@ -20,9 +20,13 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#personal-trainer">Trainer</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#update">Subscribe</Nav.Link>
 
+
                         {user?.email ?
                             <Button onClick={logOut} variant="outline-danger">Logout</Button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <div className="d-flex">
+                                <Nav.Link as={Link} to="/register">Register</Nav.Link>
+                                <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            </div>
                         }
                         <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>

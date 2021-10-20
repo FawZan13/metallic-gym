@@ -4,12 +4,13 @@ import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
-import Training from './Pages/Training/Traning/Training';
+import Training from './Pages/Training/Training/Training';
 import AuthProvider from './contexts/AuthProvider';
 import Footer from './Pages/Shared/Footer/Footer';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Subscribe from './Pages/Subscribe/Subscribe';
 import Trainer from './Pages/Trainer/Trainer';
+import Register from './Pages/Login/Register/Register';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <PrivateRoute path="/training/:serviceId">
               <Training></Training>
