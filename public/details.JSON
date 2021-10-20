@@ -1,0 +1,40 @@
+{
+    "training": [
+        {
+            "id": 1,
+            "name": "Basic training",
+            "description": "It is a basic training program.It provides basic training for those who are new to workout.Doing this workout will improve your basics.You will be able to enroll in our other programs after doing this program.",
+            "img": "https://i.ibb.co/MB73QQ9/basic-training.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Cardio training",
+            "description": "Cardiovascular exercise is any vigorous activity that increases heart rate and respiration and raises oxygen and blood flow throughout the body while using large muscle groups of the body repetitively and rhythmically.",
+            "img": "https://i.ibb.co/CBZbmv7/cardio.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Strength training",
+            "description": "Strength training, also called weight training or resistance training, is an important part of any fitness routine. It helps make you stronger and also builds muscle endurance.With strength training, you move your body against some type of resistanc",
+            "img": "https://i.ibb.co/tJFsKg6/strength.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Weight-loss Program",
+            "description": "It is a basic training program.It provides basic training for those who are new to workout.Doing this workout will improve your basics.You will be able to enroll in our other programs after doing this program.",
+            "img": "https://i.ibb.co/DQ4w3kg/weight-loss.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Crossfit training",
+            "description": "CrossFit is a branded fitness regimen created by Greg Glassman. It is a registered trademark of CrossFit, LLC, which was founded by Glassman and Lauren Jenai in 2000",
+            "img": "https://i.ibb.co/cg7nR6m/crossfit.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Endurance training",
+            "description": "It is a basic training program.It provides basic training for those who are new to workout.",
+            "img": "https://i.ibb.co/C87zwTh/endurance.jpg"
+        }
+    ]
+}

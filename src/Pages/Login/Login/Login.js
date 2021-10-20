@@ -86,7 +86,9 @@ const Login = () => {
             <div className="my-5">
                 <h3 className="mb-3">Login Using Google</h3>
                 <Button onClick={signInUsingGoogle} variant="danger">Google Sign In</Button>
-                {toggle ? <p onClick={() => setToggle(true)} className="text-center">Please Login</p> : <p onClick={() => setToggle(false)} className="text-center my-5">Are you new?<Link className="" to="/register"><Button className="mx-2">Please Register</Button></Link></p>
+
+                {toggle ?
+                    <p onClick={() => setToggle(true)} className="text-center">Please Login</p> : <p onClick={() => setToggle(false)} className="text-center my-5">Are you new?<Link className="" to="/register"><Button className="mx-2">Please Register</Button></Link></p>
                 }
             </div>
         </div>

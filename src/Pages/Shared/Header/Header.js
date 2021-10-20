@@ -28,9 +28,11 @@ const Header = () => {
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>
                             </div>
                         }
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.name}</a>
-                        </Navbar.Text>
+                        {
+                            user?.email ? <Navbar.Text>
+                                Signed in as: {user?.email}
+                            </Navbar.Text> : <div></div>
+                        }
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
