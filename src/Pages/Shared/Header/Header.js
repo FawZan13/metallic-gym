@@ -29,7 +29,7 @@ const Header = () => {
                             </div>
                         }
                         <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
+                            Signed in as: <a href="#login">{user?.name}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
