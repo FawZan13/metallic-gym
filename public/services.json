@@ -8,25 +8,25 @@
     {
         "id": 2,
         "name": "Cardio training",
-        "description": "It is a basic training program.It provides basic training for those who are new to workout.",
+        "description": "It is a cardio workout program",
         "img": "https://i.ibb.co/CBZbmv7/cardio.jpg"
     },
     {
         "id": 3,
         "name": "Strength training",
-        "description": "It is a basic training program.It provides basic training for those who are new to workout.",
+        "description": "Strength training, also called weight training or resistance training, is an important part of any fitness routine",
         "img": "https://i.ibb.co/tJFsKg6/strength.jpg"
     },
     {
         "id": 4,
         "name": "Weight-loss Program",
-        "description": "It is a basic training program.It provides basic training for those who are new to workout.",
+        "description": "It is a program for those who want to lose weight ",
         "img": "https://i.ibb.co/DQ4w3kg/weight-loss.jpg"
     },
     {
         "id": 5,
         "name": "Crossfit training",
-        "description": "It is a basic training program.It provides basic training for those who are new to workout.",
+        "description": "It is a crossfit course.",
         "img": "https://i.ibb.co/cg7nR6m/crossfit.jpg"
     },
     {
